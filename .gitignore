@@ -1,0 +1,32 @@
+# Environment
+venv/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Build/compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Local files
+*.html
+*.pdf
+*.docx
+
+# Downloaded models
+.embeddings/
+.cache/
