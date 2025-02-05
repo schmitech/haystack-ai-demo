@@ -2,6 +2,8 @@
 
 A Retrieval-Augmented Generation (RAG) pipeline implementation using Haystack 2.0 that demonstrates document processing and question answering capabilities.
 
+Based on blog post: [Haystack: the new LLM framework that is shaking its competitors](https://medium.com/ai-in-plain-english/haystack-the-new-llm-framework-that-is-shaking-its-competitors-1a083a153fd9).
+
 ## Features
 - HTML document ingestion and processing
 - Document cleaning and sentence splitting
@@ -29,8 +31,8 @@ graph TD
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/rag-pipeline-demo.git
-cd rag-pipeline-demo
+git clone https://github.com/schmitech/haystack-ai-demo.git
+cd haystack-ai-demo
 ```
 
 2. Create and activate virtual environment
@@ -45,7 +47,7 @@ venv\Scripts\activate.bat  # Windows
 pip install -r requirements.txt
 ```
 
-4. Create .env file with your OpenAI API key
+4. Create .env file with your OpenAI API key (copy from .env.example)
 ```env
 OPENAI_API_KEY=your-api-key-here
 ```
